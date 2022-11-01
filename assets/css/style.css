@@ -38,6 +38,8 @@ body {
   background-size: cover;
   background-position: center;
   text-align: right;
+  background-color:  #67A7AB;
+  opacity: 90%;
   /* Style for class hero */
 }
 
@@ -55,7 +57,7 @@ body {
   display: inline-block;
   background-color: #67A7AB;
   color:  #354457;
-  font-size: 36px;
+  font-size: 46px;
   padding-left: 10px;
   margin-top: 300px;
   margin-right: 50px;
@@ -93,7 +95,7 @@ a {
   display: inline-block;
   background-color: #FFFFFF;
   color:  #67A7AB;
-  font-size: 40px;
+  font-size: 42px;
   margin-left: 10px;
   padding-left: 50px;
   text-align: right;
@@ -125,13 +127,15 @@ a {
   width: 120px;
   color: white;
   font-size: 18px;
-  border-bottom: 5px solid #67A7AB;;
+  border-bottom: 5px solid #67A7AB;
 }
 
 .content-heading {
   color: #354457;
-  font-size: 40px;
-  display: block;
+  font-size: 46px;
+  display: inline-block;
+  vertical-align: middle;
+  border-right: 6px solid   #354457;
 }
 
 .content-about {
@@ -157,8 +161,8 @@ a {
 #categoryGrid {
   margin: 0px 10%;
   display: grid;
-  grid-template-rows: 120px 450px 200px 200px 200px 100px;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 120px 450px 0px 200px 200px 100px;
+  grid-template-columns: 1fr 2fr 2fr;
   grid-template-areas:
   "about about2 about2"
   "work surf surf"
@@ -171,6 +175,9 @@ a {
 
 #about {
   grid-area: about;
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
 }
 
 #about2 {
@@ -179,21 +186,34 @@ a {
 
 #work {
   grid-area: work;
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
 }
 
 #contact {
   grid-area: contact;
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
 }
 
 #contact2 {
   grid-area: contact2;
   display: inline-block;
-  grid-row-start: 5;
+  grid-row-start: 6;
+  vertical-align: middle;
+  margin-top: 20px;
+  padding-top: 20px;
+  margin-left: 30px;
+  padding-left: ;
 }
 
 #surf {
   grid-area: surf;
   background-image: url("../images/02-portfolio-4.jpg");
+  margin-bottom: 0px;
+  padding-bottom: 0px;
   grid-column-start: 0;
   grid-column-end: three;
   grid-row-start: 0;
@@ -230,7 +250,15 @@ a {
 }
 
 
-
+contact-details {
+  display: inline-block;
+  margin-top: 10px;
+  padding-top: 10px;
+  margin-left: 25px;
+  color: #354457;
+  text-decoration: underline;
+  /* Style for List item in Un-ordered list */
+}
 
 /*
 
