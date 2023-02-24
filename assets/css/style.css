@@ -59,9 +59,20 @@ body {
   color:  #354457;
   font-size: 46px;
   padding-left: 10px;
-  margin-top: 300px;
+  margin-top: 0px;
   margin-right: 50px;
   text-align: right;
+}
+
+.hero-banner div img {
+  display: inline-flex;
+  background-color: #636666;
+  color:  #0c0c0d;
+  padding-left: 0px;
+  margin-top: -10px;
+  margin-right: 1200px;
+  text-align: left;
+  align-content: flex-start;
 }
 
 .header div {
