@@ -5,7 +5,7 @@
 This is an html/css application to showcase simple Bio. Basic details about my bio and links to different different social media sites are also provided.
 
   ## Table of Contents
-  1. [User Story](#User Story)
+  1. [User-Story](#User-Story)
   2. [Mock-Up](#Mock-Up)
   3. [License](#License)
   4. [Questions](#Questions)
